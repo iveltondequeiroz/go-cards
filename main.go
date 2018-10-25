@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var card string = "Ace of Spades"
-	fmt.Println("Cards Game")
+	var card string = newCard()
+	fmt.Println(card)
+}
+
+func newCard() string {
+	return "Five of Diamonds"
 }
