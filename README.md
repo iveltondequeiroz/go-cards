@@ -1,1 +1,1 @@
-## Goland Cards Game
+## Golang Cards Game
